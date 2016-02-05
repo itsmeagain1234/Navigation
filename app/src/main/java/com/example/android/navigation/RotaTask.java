@@ -158,7 +158,7 @@ public class RotaTask extends AsyncTask<Void, Integer, Boolean> {
                 final MarkerOptions markerB = new MarkerOptions();
                 markerB.position(lstLatLng.get(lstLatLng.size()-1));
                 markerB.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
-                Log.d("VVVV", "qwerty!!");
+                //Log.d("VVVV", "qwerty!!");
 
                 gMap.moveCamera(CameraUpdateFactory.newLatLngZoom(lstLatLng.get(0), 10));
                 gMap.addMarker(markerA);
